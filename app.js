@@ -49,9 +49,6 @@ const courseRoutes = require("./routes/course.routes")
 courseRoutes(app)
 
 
-//** user routes loading */
-const productRoutes = require("./routes/product.routes")
-productRoutes(app)
 
 
 app.listen(port, () => {
